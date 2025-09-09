@@ -1,0 +1,570 @@
+# Use a YAML editor like NotepadPlusPlus to edit this file.  
+# After editing, back up your changes before reloading the server in case you made a syntax error.  
+# Use dollar signs ($) for formatting codes, which are documented here: http://minecraft.gamepedia.com/Formatting_codes
+
+Messages:
+  RespectingClaims:
+    Text: Đã tôn trọng vùng bảo vệ.
+  IgnoringClaims:
+    Text: Đã bỏ qua vùng bảo vệ.
+  SuccessfulAbandon:
+    Text: Đã bỏ vùng bảo vệ. Bạn còn lại {0} block claim.
+    Notes: '0: số block còn lại'
+  RestoreNatureActivate:
+    Text: Sẵn sàng phục hồi tự nhiên! Chuột phải để phục hồi, dùng /basicclaims để
+      dừng.
+  RestoreNatureAggressiveActivate:
+    Text: Đã bật chế độ phục hồi mạnh. KHÔNG dùng dưới công trình bạn muốn giữ! Chuột
+      phải để phục hồi mạnh, dùng /basicclaims để dừng.
+  FillModeActive:
+    Text: Đã bật chế độ lấp với bán kính {0}. Chuột phải vào khu vực để lấp.
+    Notes: '0: bán kính lấp'
+  TransferClaimPermission:
+    Text: Lệnh này cần quyền quản trị vùng bảo vệ.
+  TransferClaimMissing:
+    Text: Không có vùng bảo vệ ở đây. Đứng trong vùng bảo vệ quản trị bạn muốn chuyển.
+  TransferClaimAdminOnly:
+    Text: Chỉ vùng bảo vệ quản trị mới được chuyển cho người chơi.
+  PlayerNotFound2:
+    Text: Không tìm thấy người chơi này.
+  TransferTopLevel:
+    Text: Chỉ vùng bảo vệ cấp cao (không phải vùng con) mới được chuyển. Đứng ngoài
+      vùng con và thử lại.
+  TransferSuccess:
+    Text: Đã chuyển vùng bảo vệ.
+  TrustListNoClaim:
+    Text: Đứng trong vùng bảo vệ bạn muốn kiểm tra.
+  ClearPermsOwnerOnly:
+    Text: Chỉ chủ vùng bảo vệ mới được xóa toàn bộ quyền.
+  UntrustIndividualAllClaims:
+    Text: Đã thu hồi quyền của {0} trên TẤT CẢ vùng bảo vệ của bạn. Để chỉnh quyền
+      cho một vùng, hãy đứng trong vùng đó.
+    Notes: '0: người bị thu hồi'
+  UntrustEveryoneAllClaims:
+    Text: Đã xóa toàn bộ quyền trên TẤT CẢ vùng bảo vệ của bạn. Để chỉnh quyền cho
+      một vùng, hãy đứng trong vùng đó.
+  NoPermissionTrust:
+    Text: Bạn không có quyền của {0} để quản lý quyền ở đây.
+    Notes: '0: tên chủ vùng'
+  ClearPermissionsOneClaim:
+    Text: Đã xóa quyền trong vùng này. Để xóa quyền trên TẤT CẢ vùng, hãy đứng ngoài
+      các vùng bảo vệ.
+  UntrustIndividualSingleClaim:
+    Text: Đã thu hồi quyền của {0} trên vùng này. Để thu hồi trên TẤT CẢ vùng, hãy
+      đứng ngoài các vùng bảo vệ.
+    Notes: '0: người bị thu hồi'
+  OnlySellBlocks:
+    Text: Chỉ có thể bán block claim, không thể mua.
+  BlockPurchaseCost:
+    Text: Mỗi block claim giá {0}. Số dư của bạn là {1}.
+    Notes: '0: giá block; 1: số dư'
+  ClaimBlockLimit:
+    Text: Bạn đã đạt giới hạn block claim. Không thể mua thêm.
+  InsufficientFunds:
+    Text: Bạn không đủ tiền. Cần {0}, bạn chỉ có {1}.
+    Notes: '0: tổng giá; 1: số dư'
+  MaxBonusReached:
+    Text: Không thể mua thêm {0} block claim. Server giới hạn {1} block bonus.
+    Notes: '0: số block; 1: giới hạn bonus'
+  PurchaseConfirmation:
+    Text: Đã trừ {0} khỏi tài khoản. Bạn còn lại {1} block claim.
+    Notes: '0: tổng giá; 1: block còn lại'
+  OnlyPurchaseBlocks:
+    Text: Chỉ có thể mua block claim, không thể bán.
+  BlockSaleValue:
+    Text: Mỗi block claim trị giá {0}. Bạn có {1} block để bán.
+    Notes: '0: giá trị block; 1: block có thể bán'
+  NotEnoughBlocksForSale:
+    Text: Bạn không có đủ block claim để bán.
+  BlockSaleConfirmation:
+    Text: Đã cộng {0} vào tài khoản. Bạn còn lại {1} block claim.
+    Notes: '0: số tiền cộng; 1: block còn lại'
+  AdminClaimsMode:
+    Text: Đã bật chế độ vùng bảo vệ quản trị. Vùng tạo ra sẽ miễn phí và quản trị
+      viên khác có thể chỉnh sửa.
+  BasicClaimsMode:
+    Text: Đã trở về chế độ tạo vùng bảo vệ cơ bản.
+  SubdivisionMode:
+    Text: Đã bật chế độ vùng con. Dùng cuốc vàng để tạo vùng con trong vùng bảo vệ.
+      Dùng /basicclaims để thoát.
+  SubdivisionVideo2:
+    Text: 'Bấm để xem hướng dẫn vùng con: {0}'
+    Notes: 0:video URL
+  DeleteClaimMissing:
+    Text: Không có vùng bảo vệ ở đây.
+  DeletionSubdivisionWarning:
+    Text: Vùng này có vùng con. Nếu chắc chắn muốn xóa, dùng /deleteclaim lần nữa.
+  DeleteSuccess:
+    Text: Đã xóa vùng bảo vệ.
+  CantDeleteAdminClaim:
+    Text: Bạn không có quyền xóa vùng bảo vệ quản trị.
+  DeleteAllSuccess:
+    Text: Đã xóa toàn bộ vùng bảo vệ của {0}.
+    Notes: '0: tên chủ vùng'
+  NoDeletePermission:
+    Text: Bạn không có quyền xóa vùng bảo vệ.
+  AllAdminDeleted:
+    Text: Đã xóa toàn bộ vùng bảo vệ quản trị.
+  AdjustBlocksSuccess:
+    Text: 'Đã chỉnh bonus block claim của {0} thêm {1}. Tổng mới: {2}.'
+    Notes: '0: người chơi; 1: số chỉnh; 2: tổng mới'
+  NotTrappedHere:
+    Text: Bạn có thể xây ở đây. Tự cứu mình đi.
+  RescuePending:
+    Text: Nếu bạn đứng yên 10 giây, sẽ được dịch chuyển ra ngoài. Vui lòng chờ.
+  NonSiegeWorld:
+    Text: Chế độ công thành bị tắt ở đây.
+  AlreadySieging:
+    Text: Bạn đã tham gia công thành rồi.
+  NotSiegableThere:
+    Text: '{0} không được bảo vệ ở đó.'
+    Notes: '0: người phòng thủ'
+  SiegeTooFarAway:
+    Text: Bạn quá xa để công thành.
+  NoSiegeYourself:
+    Text: Không thể công thành chính mình.
+  NoSiegeDefenseless:
+    Text: Người chơi này không có gì để bảo vệ. Hãy chọn người khác.
+  AlreadyUnderSiegePlayer:
+    Text: '{0} đang bị công thành. Tham gia ngay!'
+    Notes: '0: người phòng thủ'
+  AlreadyUnderSiegeArea:
+    Text: Khu vực này đang bị công thành. Tham gia ngay!
+  NoSiegeAdminClaim:
+    Text: Công thành bị tắt ở khu vực này.
+  SiegeOnCooldown:
+    Text: Bạn vẫn đang trong thời gian chờ công thành với người này hoặc vùng này.
+      Hãy tìm mục tiêu khác.
+  SiegeAlert:
+    Text: Bạn đang bị công thành! Nếu thoát game lúc này, bạn sẽ chết. Hãy đánh bại
+      {0}, chờ họ bỏ cuộc, hoặc chạy trốn.
+    Notes: '0: tên kẻ tấn công'
+  SiegeConfirmed:
+    Text: Công thành bắt đầu! Nếu thoát game lúc này, bạn sẽ chết. Hãy đánh bại {0},
+      đuổi họ đi, hoặc bỏ cuộc.
+    Notes: '0: tên người phòng thủ'
+  AbandonClaimMissing:
+    Text: Đứng trong vùng bạn muốn xóa, hoặc dùng /abandonallclaims để xóa toàn bộ.
+  NotYourClaim:
+    Text: Đây không phải vùng bảo vệ của bạn.
+  DeleteTopLevelClaim:
+    Text: Để xóa vùng con, hãy đứng trong đó. Nếu muốn xóa vùng chính và toàn bộ vùng
+      con, dùng /abandontoplevelclaim.
+  AbandonSuccess:
+    Text: Đã bỏ vùng bảo vệ. Bạn còn lại {0} block claim.
+    Notes: '0: block claim còn lại'
+  ConfirmAbandonAllClaims:
+    Text: Bạn có chắc muốn bỏ TẤT CẢ vùng bảo vệ? Xác nhận bằng /abandonallclaims
+      confirm
+  CantGrantThatPermission:
+    Text: Bạn không thể cấp quyền mà bạn không có.
+  GrantPermissionNoClaim:
+    Text: Đứng trong vùng bảo vệ bạn muốn cấp quyền.
+  GrantPermissionConfirmation:
+    Text: Đã cấp quyền {1} cho {0} {2}.
+    Notes: '0: người nhận; 1: mô tả quyền; 2: phạm vi'
+  ManageUniversalPermissionsInstruction:
+    Text: Để quản lý quyền trên TẤT CẢ vùng bảo vệ, hãy đứng ngoài các vùng.
+  ManageOneClaimPermissionsInstruction:
+    Text: Để quản lý quyền cho một vùng, hãy đứng trong vùng đó.
+  CollectivePublic:
+    Text: mọi người
+    Notes: như 'cấp quyền cho mọi người...'
+  BuildPermission:
+    Text: xây dựng
+  ContainersPermission:
+    Text: truy cập rương và động vật
+  AccessPermission:
+    Text: dùng nút và cần gạt
+  PermissionsPermission:
+    Text: quản lý quyền
+  LocationCurrentClaim:
+    Text: trong vùng này
+  LocationAllClaims:
+    Text: trong tất cả vùng bảo vệ của bạn
+  PvPImmunityStart:
+    Text: Bạn được bảo vệ khỏi tấn công khi chưa có vật phẩm trong túi.
+  SiegeNoDrop:
+    Text: Không thể cho đồ khi đang bị công thành.
+  DonateItemsInstruction:
+    Text: Để cho đồ trong tay, chuột trái vào rương lần nữa.
+  ChestFull:
+    Text: Rương này đã đầy.
+  DonationSuccess:
+    Text: Đã chuyển đồ vào rương!
+  PlayerTooCloseForFire2:
+    Text: Không thể đốt lửa gần người chơi khác.
+  TooDeepToClaim:
+    Text: Rương này quá sâu dưới đất, không thể bảo vệ. Hãy di chuyển lên trên.
+  ChestClaimConfirmation:
+    Text: Rương này đã được bảo vệ.
+  AutomaticClaimNotification:
+    Text: Rương và các block gần đó đã được bảo vệ khỏi phá và trộm.
+  AutomaticClaimOtherClaimTooClose:
+    Text: Không thể tạo vùng bảo vệ cho rương, có vùng khác quá gần!
+  UnprotectedChestWarning:
+    Text: Rương này CHƯA được bảo vệ. Hãy dùng cuốc vàng để mở rộng hoặc tạo vùng
+      mới.
+  ThatPlayerPvPImmune:
+    Text: Không thể gây sát thương cho người chơi chưa thể PvP.
+  CantFightWhileImmune:
+    Text: Không thể đánh nhau khi đang được bảo vệ PvP.
+  NoDamageClaimedEntity:
+    Text: Cái này thuộc về {0}.
+    Notes: '0: tên chủ sở hữu'
+  ShovelBasicClaimMode:
+    Text: Đã trở về chế độ tạo vùng bảo vệ cơ bản với cuốc vàng.
+  RemainingBlocks:
+    Text: Bạn có thể claim thêm {0} block.
+    Notes: '0: block còn lại'
+  CreativeBasicsVideo2:
+    Text: 'Bấm để xem hướng dẫn claim đất: {0}'
+    Notes: '{0}: video URL'
+  SurvivalBasicsVideo2:
+    Text: 'Bấm để xem hướng dẫn claim đất: {0}'
+    Notes: '{0}: video URL'
+  TrappedChatKeyword:
+    Text: bị kẹt;kẹt
+    Notes: Khi nhắc trong chat, người chơi sẽ nhận hướng dẫn về lệnh /trapped
+  TrappedInstructions:
+    Text: Bạn bị kẹt trong vùng bảo vệ của ai đó? Hãy thử lệnh /trapped.
+  PvPNoDrop:
+    Text: Không thể thả đồ khi đang PvP.
+  SiegeNoTeleport:
+    Text: Không thể dịch chuyển ra khỏi vùng bị công thành.
+  BesiegedNoTeleport:
+    Text: Không thể dịch chuyển vào vùng bị công thành.
+  SiegeNoContainers:
+    Text: Không thể mở rương khi đang bị công thành.
+  PvPNoContainers:
+    Text: Không thể mở rương khi đang PvP.
+  PvPImmunityEnd:
+    Text: Giờ bạn có thể PvP với người chơi khác.
+  NoBedPermission:
+    Text: '{0} chưa cấp quyền cho bạn ngủ ở đây.'
+    Notes: '0: chủ vùng'
+  NoWildernessBuckets:
+    Text: Chỉ được đổ xô nước/lava trong vùng bảo vệ hoặc dưới lòng đất.
+  NoLavaNearOtherPlayer:
+    Text: Không thể đặt lava gần {0}.
+    Notes: '0: người chơi gần đó'
+  TooFarAway:
+    Text: Quá xa.
+  BlockNotClaimed:
+    Text: Chưa ai claim block này.
+  BlockClaimed:
+    Text: Block này đã được claim bởi {0}.
+    Notes: '0: chủ vùng'
+  SiegeNoShovel:
+    Text: Không thể dùng cuốc vàng khi đang bị công thành.
+  RestoreNaturePlayerInChunk:
+    Text: Không thể phục hồi. {0} đang ở khu vực đó.
+    Notes: '0: người chơi gần đó'
+  NoCreateClaimPermission:
+    Text: Bạn không có quyền claim đất.
+  ResizeNeedMoreBlocks:
+    Text: Không đủ block cho kích thước này. Cần thêm {0} block.
+    Notes: '0: số block cần thêm'
+  NoCreativeUnClaim:
+    Text: Không thể bỏ claim vùng này. Chỉ có thể mở rộng hoặc tạo vùng mới.
+  ClaimResizeSuccess:
+    Text: Đã thay đổi kích thước vùng bảo vệ. Còn lại {0} block claim.
+    Notes: '0: block còn lại'
+  ResizeFailOverlap:
+    Text: Không thể thay đổi kích thước vì sẽ chồng lên vùng bảo vệ khác.
+  ResizeStart:
+    Text: Đang thay đổi kích thước vùng bảo vệ. Dùng cuốc vàng ở vị trí mới cho góc
+      này.
+  ResizeFailOverlapSubdivision:
+    Text: Không thể tạo vùng con vì sẽ chồng lên vùng con khác. Hãy xóa vùng con hoặc
+      dùng cuốc vàng ở góc để thay đổi kích thước.
+  SubdivisionStart:
+    Text: Đã đặt góc vùng con! Dùng cuốc vàng ở vị trí đối diện để hoàn tất.
+  CreateSubdivisionOverlap:
+    Text: Khu vực bạn chọn chồng lên vùng con khác.
+  SubdivisionSuccess:
+    Text: Đã tạo vùng con! Dùng /trust để chia sẻ với bạn bè.
+  CreateClaimFailOverlap:
+    Text: Không thể tạo vùng bảo vệ vì sẽ chồng lên vùng của bạn. Dùng /abandonclaim
+      để xóa hoặc dùng cuốc vàng ở góc để thay đổi kích thước.
+  CreateClaimFailOverlapOtherPlayer:
+    Text: Không thể tạo vùng bảo vệ vì sẽ chồng lên vùng của {0}.
+    Notes: '0: chủ vùng khác'
+  ClaimsDisabledWorld:
+    Text: Claim đất bị tắt ở thế giới này.
+  ClaimStart:
+    Text: Đã đặt góc vùng bảo vệ! Dùng cuốc vàng ở góc đối diện để claim hình chữ
+      nhật. Để hủy, cất cuốc vàng đi.
+  NewClaimTooNarrow:
+    Text: Vùng bảo vệ quá nhỏ. Mỗi vùng phải rộng ít nhất {0} block.
+    Notes: '0: chiều rộng tối thiểu'
+  CreateClaimInsufficientBlocks:
+    Text: Không đủ block để claim toàn bộ khu vực. Cần thêm {0} block.
+    Notes: '0: block cần thêm'
+  AbandonClaimAdvertisement:
+    Text: Để xóa vùng khác và lấy lại block, dùng /abandonclaim.
+  CreateClaimFailOverlapShort:
+    Text: Khu vực bạn chọn chồng lên vùng bảo vệ khác.
+  CreateClaimSuccess:
+    Text: Đã tạo vùng bảo vệ! Dùng /trust để chia sẻ với bạn bè.
+  SiegeWinDoorsOpen:
+    Text: Chúc mừng! Nút và cần gạt tạm thời mở khóa.
+  RescueAbortedMoved:
+    Text: Bạn đã di chuyển! Đã hủy cứu hộ.
+  SiegeDoorsLockedEjection:
+    Text: Hết thời gian loot! Đã bị đẩy ra khỏi vùng bảo vệ.
+  NoModifyDuringSiege:
+    Text: Không thể chỉnh sửa vùng bảo vệ khi đang bị công thành.
+  OnlyOwnersModifyClaims:
+    Text: Chỉ {0} mới được chỉnh sửa vùng bảo vệ này.
+    Notes: '0: tên chủ vùng'
+  NoBuildUnderSiege:
+    Text: Vùng này đang bị công thành bởi {0}. Không ai được xây ở đây.
+    Notes: '0: tên kẻ tấn công'
+  NoBuildPvP:
+    Text: Không thể xây trong vùng bảo vệ khi đang PvP.
+  NoBuildPermission:
+    Text: Bạn không có quyền của {0} để xây ở đây.
+    Notes: '0: tên chủ vùng'
+  NonSiegeMaterial:
+    Text: Vật liệu này quá cứng để phá.
+  NoOwnerBuildUnderSiege:
+    Text: Không thể chỉnh sửa khi đang bị công thành.
+  NoAccessPermission:
+    Text: Bạn không có quyền của {0} để sử dụng vật này.
+    Notes: '0: tên chủ vùng. quyền truy cập gồm nút, cần gạt, giường'
+  NoContainersSiege:
+    Text: Vùng này đang bị công thành bởi {0}. Không ai được mở rương lúc này.
+    Notes: '0: tên kẻ tấn công'
+  NoContainersPermission:
+    Text: Bạn không có quyền của {0} để mở vật này.
+    Notes: '0: tên chủ vùng. rương gồm cả block chế tạo'
+  OwnerNameForAdminClaims:
+    Text: quản trị viên
+    Notes: như 'Bạn không có quyền của quản trị viên để xây ở đây.'
+  ClaimTooSmallForEntities:
+    Text: Vùng bảo vệ quá nhỏ cho vật này. Hãy mở rộng vùng.
+  TooManyEntitiesInClaim:
+    Text: Vùng bảo vệ đã có quá nhiều vật thể. Hãy mở rộng hoặc xóa bớt vật thể.
+  YouHaveNoClaims:
+    Text: Bạn chưa có vùng bảo vệ nào.
+  ConfirmFluidRemoval:
+    Text: Bỏ vùng bảo vệ sẽ xóa lava bên trong. Nếu chắc chắn, dùng /abandonclaim
+      lần nữa.
+  AutoBanNotify:
+    Text: Đã tự động ban {0}({1}). Xem log để biết chi tiết.
+  AdjustGroupBlocksSuccess:
+    Text: 'Đã chỉnh bonus block claim cho người có quyền {0} thêm {1}. Tổng mới: {2}.'
+    Notes: '0: quyền; 1: số chỉnh; 2: tổng mới'
+  InvalidPermissionID:
+    Text: Vui lòng nhập tên người chơi hoặc quyền trong [ngoặc].
+  HowToClaimRegex:
+    Text: (^|.*\\W)how\\W.*\\W(claim|protect|lock)(\\W.*|$)
+    Notes: Đây là biểu thức Java Regex. Dùng để trả lời khi người chơi hỏi cách claim
+      đất.
+  NoBuildOutsideClaims:
+    Text: Không thể xây ở đây nếu chưa claim đất.
+  PlayerOfflineTime:
+    Text: '  Đăng nhập lần cuối: {0} ngày trước.'
+    Notes: '0: số ngày kể từ lần đăng nhập cuối'
+  BuildingOutsideClaims:
+    Text: Người chơi khác cũng có thể xây ở đây. Hãy claim đất để bảo vệ công trình!
+  TrappedWontWorkHere:
+    Text: Xin lỗi, không tìm được vị trí an toàn để dịch chuyển bạn. Liên hệ quản
+      trị viên.
+  CommandBannedInPvP:
+    Text: Không thể dùng lệnh này khi đang PvP.
+  UnclaimCleanupWarning:
+    Text: Đất bạn vừa bỏ claim có thể bị người khác thay đổi hoặc bị quản trị viên
+      dọn dẹp. Nếu có công trình muốn giữ, hãy claim lại.
+  BuySellNotConfigured:
+    Text: Xin lỗi, mua bán block claim đã bị tắt.
+  NoTeleportPvPCombat:
+    Text: Không thể dịch chuyển khi đang PvP.
+  NoTNTDamageAboveSeaLevel:
+    Text: 'Cảnh báo: TNT sẽ không phá block trên mực nước biển.'
+  NoTNTDamageClaims:
+    Text: 'Cảnh báo: TNT sẽ không phá block đã claim.'
+  IgnoreClaimsAdvertisement:
+    Text: Để bỏ qua vùng bảo vệ, dùng /ignoreclaims.
+  NoPermissionForCommand:
+    Text: Bạn không có quyền làm điều này.
+  ClaimsListNoPermission:
+    Text: Bạn không có quyền xem thông tin vùng bảo vệ của người khác.
+  ExplosivesDisabled:
+    Text: Vùng này đã được bảo vệ khỏi nổ. Dùng /claimexplosions lần nữa để tắt bảo
+      vệ.
+  ExplosivesEnabled:
+    Text: Vùng này đã có thể bị nổ. Dùng /claimexplosions lần nữa để bật lại bảo vệ.
+  ClaimExplosivesAdvertisement:
+    Text: Để cho phép nổ phá block trong vùng bảo vệ, dùng /claimexplosions.
+  PlayerInPvPSafeZone:
+    Text: Người chơi này đang ở vùng an toàn PvP.
+  NoPistonsOutsideClaims:
+    Text: 'Cảnh báo: Piston sẽ không di chuyển block ngoài vùng bảo vệ.'
+  SoftMuted:
+    Text: Đã soft-mute {0}.
+    Notes: '0: tên người chơi bị mute.'
+  UnSoftMuted:
+    Text: Đã bỏ soft-mute {0}.
+    Notes: '0: tên người chơi bị mute.'
+  DropUnlockAdvertisement:
+    Text: Người chơi khác không thể nhặt đồ bạn thả ra trừ khi bạn dùng /unlockdrops
+      trước.
+  PickupBlockedExplanation:
+    Text: Bạn không thể nhặt đồ này trừ khi {0} dùng /unlockdrops.
+    Notes: '0: chủ sở hữu đồ'
+  DropUnlockConfirmation:
+    Text: Đã mở khóa đồ thả. Người chơi khác có thể nhặt (cho đến khi bạn chết lần
+      nữa).
+  DropUnlockOthersConfirmation:
+    Text: Đã mở khóa đồ thả của {0}.
+    Notes: '0: chủ sở hữu đồ'
+  AdvertiseACandACB:
+    Text: Bạn có thể dùng /acb để nhận thêm block claim, hoặc /adminclaims để tạo
+      vùng bảo vệ quản trị miễn phí.
+  AdvertiseAdminClaims:
+    Text: Bạn có thể tạo vùng bảo vệ quản trị bằng /adminclaims, chia sẻ với quản
+      trị viên khác.
+  AdvertiseACB:
+    Text: Bạn có thể dùng /acb để nhận thêm block claim.
+  NotYourPet:
+    Text: Vật này thuộc về {0} cho đến khi được chuyển cho bạn bằng /givepet.
+    Notes: '0: chủ sở hữu'
+  PetGiveawayConfirmation:
+    Text: Đã chuyển vật nuôi.
+  PetTransferCancellation:
+    Text: Đã hủy chuyển vật nuôi.
+  ReadyToTransferPet:
+    Text: Sẵn sàng chuyển! Chuột phải vào vật nuôi muốn chuyển, hoặc hủy bằng /givepet
+      cancel.
+  AvoidGriefClaimLand:
+    Text: Chống phá hoại! Claim đất để bảo vệ công trình.
+  BecomeMayor:
+    Text: Chia vùng đất thành vùng con để trở thành thị trưởng!
+  ClaimCreationFailedOverClaimCountLimit:
+    Text: Bạn đã đạt giới hạn số vùng bảo vệ. Dùng /abandonclaim để xóa vùng trước
+      khi tạo vùng mới.
+  CreateClaimFailOverlapRegion:
+    Text: Không thể claim toàn bộ vì bạn không được phép xây ở đây.
+  ResizeFailOverlapRegion:
+    Text: Bạn không có quyền xây ở đó, nên không thể claim vùng này.
+  ShowNearbyClaims:
+    Text: Tìm thấy {0} vùng bảo vệ gần đây.
+    Notes: '0: số vùng tìm thấy.'
+  NoChatUntilMove:
+    Text: Xin lỗi, bạn cần di chuyển thêm trước khi chat. Server có nhiều spam bot.
+      :)
+  SiegeImmune:
+    Text: Người chơi này miễn nhiễm với /siege.
+  SetClaimBlocksSuccess:
+    Text: Đã cập nhật block claim tích lũy.
+  IgnoreConfirmation:
+    Text: Bạn đã bỏ qua tin nhắn chat của người chơi này.
+  NotIgnoringPlayer:
+    Text: Bạn chưa bỏ qua người chơi này.
+  UnIgnoreConfirmation:
+    Text: Bạn không còn bỏ qua tin nhắn chat của người chơi này.
+  SeparateConfirmation:
+    Text: Hai người chơi này sẽ bỏ qua nhau trong chat.
+  UnSeparateConfirmation:
+    Text: Hai người chơi này sẽ không còn bỏ qua nhau trong chat.
+  NotIgnoringAnyone:
+    Text: Bạn chưa bỏ qua ai cả.
+  TrustListHeader:
+    Text: 'Quyền cụ thể tại đây:'
+    Notes: '0: chủ vùng'
+  Manage:
+    Text: Quản lý
+  Build:
+    Text: Xây dựng
+  Containers:
+    Text: Rương
+  Access:
+    Text: Truy cập
+  HasSubclaimRestriction:
+    Text: Vùng con này không kế thừa quyền từ vùng cha
+  StartBlockMath:
+    Text: '{0} block từ chơi + {1} bonus = {2} tổng cộng.'
+  ClaimsListHeader:
+    Text: 'Vùng bảo vệ:'
+  ContinueBlockMath:
+    Text: ' (-{0} block)'
+  EndBlockMath:
+    Text: ' = {0} block còn lại'
+  NoClaimDuringPvP:
+    Text: Không thể claim đất khi đang PvP.
+  UntrustAllOwnerOnly:
+    Text: Chỉ chủ vùng mới được xóa toàn bộ quyền.
+  ManagersDontUntrustManagers:
+    Text: Chỉ chủ vùng mới được hạ quyền quản lý.
+  BookAuthor:
+    Text: BigScary
+  BookTitle:
+    Text: Hướng dẫn Claim Đất
+  BookIntro:
+    Text: Claim đất để bảo vệ công trình! Bấm link trên để học cách claim đất trong
+      3 phút.
+  BookDisabledChestClaims:
+    Text: '  Trên server này, đặt rương sẽ KHÔNG tự động claim đất.'
+  BookUsefulCommands:
+    Text: 'Lệnh hữu ích:'
+  BookLink:
+    Text: 'Bấm: {0}'
+    Notes: '{0}: video URL'
+  BookTools:
+    Text: Dụng cụ claim là {0} và {1}.
+    Notes: '0: dụng cụ chỉnh sửa; 1: dụng cụ kiểm tra'
+  ResizeClaimTooNarrow:
+    Text: Kích thước mới quá nhỏ. Vùng bảo vệ phải rộng ít nhất {0} block.
+    Notes: '0: chiều rộng tối thiểu'
+  ResizeClaimInsufficientArea:
+    Text: Vùng bảo vệ quá nhỏ. Mỗi vùng phải dùng ít nhất {0} block claim.
+    Notes: '0: diện tích tối thiểu'
+  NoProfanity:
+    Text: Vui lòng giữ lịch sự khi chat.
+  PlayerNotIgnorable:
+    Text: Không thể bỏ qua người chơi này.
+  NoEnoughBlocksForChestClaim:
+    Text: Bạn không có block claim, không thể tự động claim đất khi đặt rương. Dùng
+      /claimslist để kiểm tra số block claim.
+  IsIgnoringYou:
+    Text: Người chơi này đang bỏ qua bạn.
+  MustHoldModificationToolForThat:
+    Text: Bạn phải cầm cuốc vàng để làm điều này.
+  StandInClaimToResize:
+    Text: Đứng trong vùng bảo vệ muốn thay đổi kích thước.
+  ClaimsExtendToSky:
+    Text: Vùng bảo vệ luôn kéo dài tới giới hạn xây dựng tối đa.
+  ClaimsAutoExtendDownward:
+    Text: Vùng bảo vệ tự động mở rộng xuống sâu khi bạn đặt block bên dưới.
+  MinimumRadius:
+    Text: Bán kính tối thiểu là {0}.
+    Notes: '0: bán kính tối thiểu'
+  RadiusRequiresGoldenShovel:
+    Text: Bạn phải cầm cuốc vàng khi chỉ định bán kính.
+  ClaimTooSmallForActiveBlocks:
+    Text: Vùng bảo vệ quá nhỏ cho block hoạt động (hopper, spawner, beacon...). Hãy
+      mở rộng vùng trước.
+  TooManyActiveBlocksInClaim:
+    Text: Vùng bảo vệ đã đạt giới hạn block hoạt động. Hãy mở rộng hoặc xóa bớt block
+      hoạt động.
+  ConsoleOnlyCommand:
+    Text: Lệnh này chỉ dùng được từ console server.
+  WorldNotFound:
+    Text: Không tìm thấy thế giới.
+  AdjustBlocksAllSuccess:
+    Text: Đã chỉnh bonus block claim cho toàn bộ người chơi online thêm {0}.
+    Notes: '0: số chỉnh'
+  TooMuchIpOverlap:
+    Text: Xin lỗi, có quá nhiều người chơi đăng nhập bằng IP của bạn.
+  StandInSubclaim:
+    Text: Bạn cần đứng trong vùng con để giới hạn quyền.
+  SubclaimRestricted:
+    Text: Quyền vùng con này sẽ không còn kế thừa từ vùng cha
+  SubclaimUnrestricted:
+    Text: Quyền vùng con này sẽ kế thừa từ vùng cha
+  NetherPortalTrapDetectionMessage:
+    Text: Có vẻ bạn bị kẹt trong cổng Nether. Chúng tôi sẽ cứu bạn sau vài giây nếu
+      đúng như vậy!
+    Notes: Gửi cho người chơi khi vào game, nếu họ thoát khi đang ở trong cổng Nether.

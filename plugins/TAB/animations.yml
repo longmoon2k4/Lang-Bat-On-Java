@@ -1,0 +1,84 @@
+MyAnimation1:
+  change-interval: 100
+  texts:
+    - '&#FF6B6B⮞&#F7B801------------------'
+    - '&#F7B801-&#FF6B6B⮞&#F7B801-----------------'
+    - '&#F7B801--&#FF6B6B⮞&#F7B801----------------'
+    - '&#F7B801---&#FF6B6B⮞&#F7B801---------------'
+    - '&#F7B801----&#FF6B6B⮞&#F7B801--------------'
+    - '&#F7B801-----&#FF6B6B⮞&#F7B801-------------'
+    - '&#F7B801------&#FF6B6B⮞&#F7B801------------'
+    - '&#F7B801-------&#FF6B6B⮞&#F7B801-----------'
+    - '&#F7B801--------&#FF6B6B⮞&#F7B801----------'
+    - '&#F7B801---------&#FF6B6B⮞&#F7B801---------'
+    - '&#F7B801----------&#FF6B6B⮞&#F7B801--------'
+    - '&#F7B801-----------&#FF6B6B⮞&#F7B801-------'
+    - '&#F7B801------------&#FF6B6B⮞&#F7B801------'
+    - '&#F7B801-------------&#FF6B6B⮞&#F7B801-----'
+    - '&#F7B801--------------&#FF6B6B⮞'
+    - '&#F7B801-------------&#FF6B6B⮞&#F7B801-----'
+    - '&#F7B801------------&#FF6B6B⮞&#F7B801------'
+    - '&#F7B801-----------&#FF6B6B⮞&#F7B801-------'
+    - '&#F7B801----------&#FF6B6B⮞&#F7B801--------'
+    - '&#F7B801---------&#FF6B6B⮞&#F7B801---------'
+    - '&#F7B801--------&#FF6B6B⮞&#F7B801----------'
+    - '&#F7B801-------&#FF6B6B⮞&#F7B801-----------'
+    - '&#F7B801------&#FF6B6B⮞&#F7B801------------'
+    - '&#F7B801-----&#FF6B6B⮞&#F7B801-------------'
+    - '&#F7B801----&#FF6B6B⮞&#F7B801--------------'
+    - '&#F7B801---&#FF6B6B⮞&#F7B801---------------'
+    - '&#F7B801--&#FF6B6B⮞&#F7B801----------------'
+    - '&#F7B801-&#FF6B6B⮞&#F7B801-----------------'
+    - '&#FF6B6B⮞&#F7B801------------------'
+ServerName:
+  change-interval: 200
+  texts:
+    - '&6&lLangBatOn'
+    - '&e&lLangBatOn'
+    - '&b&lLangBatOn'
+    - '&a&lLangBatOn'
+    - '&d&lLangBatOn'
+    - '&c&lLangBatOn'
+web:
+  change-interval: 200
+  texts:
+    - '&b&lwww.langbaton.vn'
+    - '&a&lwww.langbaton.vn'
+    - '&d&lwww.langbaton.vn'
+    - '&6&lwww.langbaton.vn'
+    - '&e&lwww.langbaton.vn'
+vote:
+  change-interval: 900
+  texts:
+    - '&a&lVote: &e&lvote.langbaton.vn'
+    - '&b&lVote: &e&lvote.langbaton.vn'
+    - '&d&lVote: &e&lvote.langbaton.vn'
+    - '&6&lVote: &e&lvote.langbaton.vn'
+Welcome:
+  change-interval: 350
+  texts:
+    - '&a&lC_'
+    - '&a&lCh_'
+    - '&a&lCha_'
+    - '&a&lChào_'
+    - '&a&lChào m_'
+    - '&a&lChào mừ_'
+    - '&a&lChào mừng_'
+    - '&a&lChào mừng_'
+    - '&a&lChào mừ_'
+    - '&a&lChào m_'
+    - '&a&lCha_'
+    - '&a&lCh_'
+    - '&a&lC_'
+time:
+  change-interval: 1500
+  texts:
+    - '&b⏰ &7Giờ: &f%time%'
+    - '&e📅 &7Ngày: &f%date%'
+barcolors:
+  change-interval: 800
+  texts:
+    - '&cĐỏ'
+    - '&9Xanh dương'
+    - '&aXanh lá'
+    - '&eVàng'
