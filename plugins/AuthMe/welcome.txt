@@ -1,0 +1,3 @@
+Chào mừng người chơi {PLAYER} đến với {SERVER}
+
+Đừng chia sẻ mật khẩu của bạn với bất kỳ ai để đảm bảo an toàn cho tài khoản của bạn !!!

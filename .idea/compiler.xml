@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="adventure-key (1)" />
+        <module name="examination-api" />
+        <module name="adventure-text-minimessage" />
+        <module name="adventure-platform-viaversion" />
+        <module name="examination-string" />
+        <module name="adventure-text-serializer-bungeecord" />
+        <module name="adventure-nbt" />
+        <module name="adventure-key" />
+        <module name="adventure-text-serializer-legacy" />
+        <module name="adventure-platform-facet" />
+        <module name="adventure-text-serializer-gson" />
+        <module name="adventure-text-serializer-gson (1)" />
+        <module name="adventure-text-serializer-json" />
+        <module name="adventure-platform-bukkit" />
+        <module name="adventure-api" />
+        <module name="adventure-api (1)" />
+        <module name="adventure-platform-api" />
+        <module name="option" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

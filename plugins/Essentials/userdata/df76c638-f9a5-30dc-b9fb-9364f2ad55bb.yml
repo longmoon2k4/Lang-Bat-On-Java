@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1757327059403
+  login: 1757326901231
+money: '0'
+last-account-name: SmileDevTest
+lastlocation:
+  world: d3a2bd40-ec0e-4f00-9ff6-e3a8f2df51db
+  world-name: world
+  x: 264.5
+  y: 64.0
+  z: -75.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: d3a2bd40-ec0e-4f00-9ff6-e3a8f2df51db
+  world-name: world
+  x: 294.7363982088067
+  y: 73.0
+  z: -80.44491980422384
+  yaw: 166.79920959472656
+  pitch: 32.25004959106445
