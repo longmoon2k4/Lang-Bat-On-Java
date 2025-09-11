@@ -11,23 +11,23 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1757450876052
+  lastteleport: 1757451136460
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
   logout: 1757446191334
-  login: 1757450849245
+  login: 1757451115368
 money: '0'
 last-account-name: SmileDevTest
 lastlocation:
   world: d3a2bd40-ec0e-4f00-9ff6-e3a8f2df51db
   world-name: world
-  x: 282.750817853263
+  x: 283.0235646380445
   y: 68.0
-  z: -132.49887402885167
-  yaw: 168.00054931640625
-  pitch: 22.34984588623047
+  z: -133.07985424018278
+  yaw: -155.09951782226562
+  pitch: 16.799856185913086
 logoutlocation:
   world: d3a2bd40-ec0e-4f00-9ff6-e3a8f2df51db
   world-name: world

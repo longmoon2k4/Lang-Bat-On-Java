@@ -5,15 +5,15 @@ header-footer:
     - "<#FFFFFF>&m                                                </#FFFF00>"
     - "&3&lLàngBấtỔn"
     - "&r&7&l>> %animation:Welcome%&3 &l%player%&7&l! &7&l<<"
-    - "&r&7Online players: &f%online%"
-    - "&6Online staff: &e%staffonline%"
+    - "&r&7Người chơi online: &f%online%"
+    - "&6Quản trị viên online: &e%staffonline%"
     - ""
   footer:
     - "%animation:time%"
     - "&2Ping: %ping%"
-    - "&7&l Used memory: %memory-used% MB / %memory-max% MB"
+    - "&7&l Bộ nhớ đã dùng: %memory-used% MB / %memory-max% MB"
     - ""
-    - "&r&7Visit our webpage %animation:web%"
+    - "&r&7Truy cập website: %animation:web%"
     - "<#FFFFFF>&m                                                </#FFFF00>"
   disable-condition: '%world%=disabledworld'
   per-world:
@@ -53,8 +53,8 @@ scoreboard-teams:
 playerlist-objective:
   enabled: true
   value: "%ping%"
-  fancy-value: "&7Ping: %ping%"
-  title: "TAB" # Only visible on Bedrock Edition
+  fancy-value: "&7Độ trễ: %ping%"
+  title: "TAB" # Chỉ hiển thị trên Bedrock Edition
   render-type: INTEGER
   disable-condition: '%world%=disabledworld'
 
@@ -62,7 +62,7 @@ playerlist-objective:
 belowname-objective:
   enabled: false
   value: "%health%"
-  title: "&cHealth"
+  title: "&cMáu"
   fancy-value: "&c%health%"
   fancy-value-default: "NPC"
   disable-condition: '%world%=disabledworld'
@@ -82,11 +82,11 @@ bossbar:
       style: "PROGRESS" # for 1.9+: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
       color: "%animation:barcolors%" # for 1.9+: BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
       progress: "100" # in %
-      text: "&fWebsite: &bwww.domain.com"
+  text: "&fWebsite: &bwww.domain.com"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Scoreboard
 scoreboard:
-  enabled: false
+  enabled: true
   toggle-command: /sb
   remember-toggle-choice: false
   hidden-by-default: false
@@ -94,36 +94,17 @@ scoreboard:
   static-number: 0
   delay-on-join-milliseconds: 0
   scoreboards:
-    scoreboard-1.20.3+:
-      title: "<#E0B11E>MyServer</#FF0000>"
-      display-condition: "%player-version-id%>=765;%bedrock%=false" # Only display it to players using 1.20.3+ AND NOT bedrock edition
-      lines:
-        - "&7%date%"
-        - "%animation:MyAnimation1%"
-        - "&6Online:"
-        - "* &eOnline&7:||%online%"
-        - "* &eCurrent World&7:||%worldonline%"
-        - "* &eStaff&7:||%staffonline%"
-        - ""
-        - "&6Personal Info:"
-        - "* &bRank&7:||%group%"
-        - "* &bPing&7:||%ping%&8ms"
-        - "* &bWorld&7:||%world%"
-        - "%animation:MyAnimation1%"
     scoreboard:
-      title: "<#E0B11E>MyServer</#FF0000>"
+      title: "<#FFD700>&lLàngBấtỔn <#00BFFF>Scoreboard"
       lines:
-        - "&7%date%"
-        - "%animation:MyAnimation1%"
-        - "&6Online:"
-        - "* &eOnline&7: &f%online%"
-        - "* &eCurrent World&7: &f%worldonline%"
-        - "* &eStaff&7: &f%staffonline%"
-        - ""
-        - "&6Personal Info:"
-        - "* &bRank&7: &f%group%"
-        - "* &bPing&7: &f%ping%&8ms"
-        - "* &bWorld&7: &f%world%"
+        - "&fTên: &b%player% | &e%group%"
+        - "&aTiền: %vault_eco_balance% &6$ | &dClaim: %griefprevention_remainingclaims%"
+        - "&cMáu: %health% &c❤ | %player_allow_flight%"
+        - "&ePing: %ping% ms"
+        - "&6Online: %online% | &fThế giới: %world%"
+        - "&6Thời gian: %time%"
+        - "&bWebsite: www.langbaton.vn"
+        - "&bDiscord: discord.gg/langbaton"
         - "%animation:MyAnimation1%"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Layout
@@ -140,18 +121,18 @@ layout:
         - '1|&3Website&f:'
         - '2|&bmyserver.net'
         - '3|&8&m                       '
-        - '4|&3Name&f:'
+        - '4|&3Tên&f:'
         - '5|&b%player%'
-        - '7|&3Rank&f:'
-        - '8|Rank: %group%'
-        - '10|&3World&f:'
+        - '7|&3Cấp bậc&f:'
+        - '8|Cấp bậc: %group%'
+        - '10|&3Thế giới&f:'
         - '11|&b%world%'
-        - '13|&3Time&f:'
+        - '13|&3Thời gian&f:'
         - '14|&b%time%'
         - '21|&3Teamspeak&f:'
         - '22|&bts.myserver.net'
         - '23|&8&m                       '
-        - '41|&3Store&f:'
+        - '41|&3Cửa hàng&f:'
         - '42|&bshop.myserver.net'
         - '43|&8&m                       '
       groups:
@@ -179,6 +160,9 @@ placeholder-output-replacements:
   "%essentials_vanished%":
     "yes": "&7| Vanished"
     "no": ""
+  "%player_allow_flight%":
+    "true": "&aBay: Có"
+    "false": "&cBay: Không"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Conditional-placeholders
 conditions:
