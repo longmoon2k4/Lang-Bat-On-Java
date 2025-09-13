@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.5.130
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1757780851896
+  login: 1757780820900
+money: '316.4'
+last-account-name: Nga1807
+lastlocation:
+  world: d3a2bd40-ec0e-4f00-9ff6-e3a8f2df51db
+  world-name: world
+  x: 300.69999998807907
+  y: 72.0
+  z: -70.65229460187822
+  yaw: -131.99923706054688
+  pitch: 36.44997024536133
+logoutlocation:
+  world: d3a2bd40-ec0e-4f00-9ff6-e3a8f2df51db
+  world-name: world
+  x: 348.6388740126474
+  y: 63.0
+  z: 26.500983442549014
+  yaw: -56.099998474121094
+  pitch: 26.399948120117188

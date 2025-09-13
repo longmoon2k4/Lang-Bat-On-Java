@@ -750,3 +750,39 @@
 [09-13 20:56:05]: [FINE] The user SmileDev has 2 accounts:
 [09-13 20:56:05]: [FINE] §7§aSmileDev§7, smiledevtest.
 [09-13 20:56:05]: [FINE] SmileDev logged in 127.0.0.1
+[09-13 21:24:43]: [INFO] SQLite Setup finished
+[09-13 21:24:43]: [INFO] Hooked into LuckPerms!
+[09-13 21:24:43]: [INFO] Hooked successfully into Essentials
+[09-13 21:24:43]: [INFO] Essentials spawn file not found: 'C:\Users\Administrator\Desktop\Lang-Bat-On-Java\plugins\Essentials\spawn.yml'
+[09-13 21:24:43]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[09-13 21:24:43]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[09-13 21:24:44]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[09-13 21:24:44]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[09-13 21:24:44]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[09-13 21:24:44]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (The system cannot find the file specified)
+[09-13 21:24:44]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (The system cannot find the file specified)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:338)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:257)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:211)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+[09-13 21:24:49]: [FINE] The user SmileDev has 2 accounts:
+[09-13 21:24:49]: [FINE] §7§aSmileDev§7, smiledevtest.
+[09-13 21:24:49]: [FINE] SmileDev logged in 127.0.0.1
+[09-13 21:32:14]: [FINE] Nga1807 registered 192.168.5.130
+[09-13 21:32:14]: [FINE] Nga1807 logged in 192.168.5.130
+[09-13 23:27:20]: [FINE] The user SmileDev has 2 accounts:
+[09-13 23:27:20]: [FINE] §7§aSmileDev§7, smiledevtest.
+[09-13 23:27:20]: [FINE] SmileDev logged in 127.0.0.1
+[09-13 23:27:23]: [FINE] Nga1807 logged in 192.168.5.130
+[09-13 23:28:17]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!
