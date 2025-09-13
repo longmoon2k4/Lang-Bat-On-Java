@@ -95,16 +95,16 @@ scoreboard:
   delay-on-join-milliseconds: 0
   scoreboards:
     scoreboard:
-      title: "<#FFD700>&lLàngBấtỔn <#00BFFF>Scoreboard"
+      title: "%animation:MyAnimation%"
       lines:
-        - "&fTên: &b%player% | &e%group%"
+        - "&fTên: &b%player% | %condition:group_display%"
         - "&aTiền: %vault_eco_balance% &6$ | &dClaim: %griefprevention_remainingclaims%"
         - "&cMáu: %health% &c❤ | %player_allow_flight%"
         - "&ePing: %ping% ms"
         - "&6Online: %online% | &fThế giới: %world%"
         - "&6Thời gian: %time%"
-        - "&bWebsite: www.langbaton.vn"
-        - "&bDiscord: discord.gg/langbaton"
+        - "&bWebsite: https://smiledev.id.vn"
+        - "&bDiscord: discord.gg/"
         - "%animation:MyAnimation1%"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Layout
@@ -171,6 +171,16 @@ conditions:
       - "%player%=%essentials_nickname%"
     yes: "%player%"
     no: "~%essentials_nickname%"
+  group_display:
+    type: OR
+    conditions:
+      - "%group%=owner"
+      - "%group%=admin"
+      - "%group%=mod"
+      - "%group%=helper"
+      - "%group%=default"
+    yes: "%vault_prefix%"
+    no: "%vault_prefix%"
 
 placeholder-refresh-intervals:
   default-refresh-interval: 500

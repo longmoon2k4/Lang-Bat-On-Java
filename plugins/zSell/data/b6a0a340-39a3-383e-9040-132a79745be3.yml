@@ -2,6 +2,7 @@ categories:
   crops: 384.0
   mob-drops: 27.0
   armor-tools: 390.0
-totalEarnings: 390.0
-totalSold: 2
+  blocks: 128.0
+totalEarnings: 518.0
+totalSold: 66
 sellLevel: 0

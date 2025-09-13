@@ -34,3 +34,8 @@ history:
   price: 195.0
   time: 1757741089953
   category: armor-tools
+- item: OAK_LOG
+  amount: 64
+  price: 128.0
+  time: 1757771830439
+  category: blocks
