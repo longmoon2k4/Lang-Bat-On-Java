@@ -1,3 +1,3 @@
 @echo off
-java -Xms4G -Xmx4G -jar paper-1.21.8-60.jar --nogui
+java -Xms1G -Xmx1G -jar love.jar --nogui
 pause

@@ -1,0 +1,177 @@
+gui:
+  title: "&8ꜱᴇʟʟ ɢᴜɪ"
+  sold-message: "#04fc84+{money}$"
+  sold-actionbar: "#04fc84+{money}$"
+  filler-item-name: " "
+
+sellmulti:
+  title: "#04fc84ꜱᴇʟʟᴍᴜʟᴛɪ"
+
+worth:
+  title: "#04fc84ᴡᴏʀᴛʜ"
+
+category-detail:
+  titles:
+    crops: '&8ꜰᴀʀᴍ ɪᴛᴇᴍѕ'
+    mob-drops: '&8ᴍᴏʙ ᴅʀᴏᴘѕ'
+    ores: '&8ᴏʀᴇѕ'
+    natural-items: '&8ɴᴀᴛᴜʀᴀʟ ɪᴛᴇᴍѕ'
+    armor-tools: '&8ᴀʀᴍᴏʀ ᴀɴᴅ ᴛᴏᴏʟѕ'
+    fish: '&8ғɪsʜ'
+    enchanted-books: '&8ʙᴏᴏᴋѕ'
+    potions: '&8ᴘᴏᴛɪᴏɴѕ'
+    blocks: '&8ʙʟᴏᴄᴋѕ'
+
+  navigation:
+    previous-page-slot: 48
+    previous-page:
+      material: ARROW
+      displayname: '#FC0000&lPREVIOUS'
+      lore:
+        - '&fClick to go to the previous page'
+
+    next-page-slot: 51
+    next-page:
+      material: ARROW
+      displayname: '#7CFC00&lNEXT'
+      lore:
+        - '&fClick to go to the next page'
+
+    stats-book:
+      slot: 50
+      material: BOOK
+      displayname: '#04fc84&lSELL STATISTICS'
+      lore:
+        - '#04fc84Total Sold: {total-sold}'
+        - '#04fc84Total Made: {total-made}$'
+
+    back-button:
+      slot: 45
+      material: RED_DYE
+      displayname: '#FC0000&lBACK'
+      lore:
+        - '&fClick to go back'
+
+  item:
+    displayname: '&r%item%'
+    lore:
+      - '&fPrice: #7CFC00$%item-value%'
+
+level-up:
+  subtitle: "&7ʏᴏᴜ ᴀʀᴇ ɴᴏᴡ ʟᴇᴠᴇʟ #04fc84{level}"
+  fade-in: 10
+  stay: 40
+  fade-out: 10
+
+player-only: "&cᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ᴏɴʟʏ ʙᴇ ᴜꜱᴇᴅ ʙʏ ᴘʟᴀʏᴇʀꜱ!"
+no-permission: "&cʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪꜱꜱɪᴏɴ ꜰᴏʀ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ!"
+reload-success: "&aConfig reloaded successfully!"
+
+messages:
+  chat-enabled: true
+  actionbar-enabled: true
+
+sounds:
+  sell-enabled: true
+  sell-sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+  sell-volume: 1.0
+  sell-pitch: 1.0
+
+formats:
+  sell-chat: "#04fc84+{money}$"
+  sell-actionbar: "#04fc84+{money}$"
+
+sellhistory:
+  title: "#04fc84ꜱᴇʟʟ ʜɪꜱᴛᴏʀʏ"
+  rows: 6
+  click-sound:
+    enabled: true
+    sound: ENTITY_CHICKEN_EGG
+    volume: 1.0
+    pitch: 1.0
+  navigation:
+    previous-page-slot: 48
+    previous-page:
+      material: ARROW
+      displayname: '#FC0000&lPREVIOUS'
+      lore:
+        - '&fClick to go to the previous page'
+
+    next-page-slot: 51
+    next-page:
+      material: ARROW
+      displayname: '#7CFC00&lNEXT'
+      lore:
+        - '&fClick to go to the next page'
+
+    stats-book:
+      slot: 50
+      material: BOOK
+      displayname: '#04fc84&lSell Statistics'
+      lore:
+        - '&7Total Sold: #04fc84{total-sold}'
+        - '&7Total Made: #04fc84{total-made}$'
+
+    sort-button:
+      slot: 49
+      material: HOPPER
+      displayname: '#04fc84&lSORT'
+      switch: '&7ᴄʟɪᴄᴋ ᴛᴏ sᴡɪᴛᴄʜ'        
+      lore-inactive:
+        - ''
+        - '&f● ᴛɪᴍᴇ: ɴᴇᴡᴇsᴛ ғɪʀsᴛ'
+        - '&f● ᴛɪᴍᴇ: ᴏʟᴅᴇsᴛ ғɪʀsᴛ'
+        - '&f● ᴘʀɪᴄᴇ: ʜɪɢʜᴇsᴛ ғɪʀsᴛ'
+        - '&f● ᴘʀɪᴄᴇ: ʟᴏᴡᴇsᴛ ғɪʀsᴛ'
+        - '&f● ɴᴀᴍᴇ'
+      lore-active:
+        - ''
+        - '#04fc84● ᴛɪᴍᴇ: ɴᴇᴡᴇsᴛ ғɪʀsᴛ'
+        - '#04fc84● ᴛɪᴍᴇ: ᴏʟᴅᴇsᴛ ғɪʀsᴛ'
+        - '#04fc84● ᴘʀɪᴄᴇ: ʜɪɢʜᴇsᴛ ғɪʀsᴛ'
+        - '#04fc84● ᴘʀɪᴄᴇ: ʟᴏᴡᴇsᴛ ғɪʀsᴛ'
+        - '#04fc84● ɴᴀᴍᴇ'
+
+    close-button:
+      slot: 45
+      material: RED_DYE
+      displayname: '#FC0000&lCLOSE'
+      lore:
+        - '&fClick to close the menu'
+
+  item:
+    material: PLAYER_HEAD
+    displayname: '#04fc84{item-name}'
+    lore:
+      - '&fTotal Amount: #04fc84{amount}'
+      - '&fTotal Price: #04fc84{price}'
+      - '&fCategory: #04fc84{category}'
+      - '&fLast Sold: #04fc84{time}'
+
+sellstick:
+  material: NETHERITE_AXE
+  displayname: '#04fc84sᴇʟʟ ᴡᴀɴᴅ'
+  lore:
+    - ''
+    - '#04fc84ɪɴғᴏ'
+    - ''
+    - ' #04fc84❙ &fᴜsᴇs: #04fc84{uses}'
+    - ' #04fc84❙ &fʟᴀsᴛ ᴜsᴇᴅ ʙʏ: #04fc84{lastusedby}'
+    - ''
+    - '#04fc84sᴛᴀᴛs'
+    - ' &8❙ &fsᴏʟᴅ ɪᴛᴇᴍs: #04fc84{items_sold}'
+    - ' &8❙ &fᴍᴏɴᴇʏ ᴍᴀᴅᴇ: #04fc84{money_made}$'
+    - ' &8❙ &fɪᴅ #04fc84{id}'
+    - ''
+    - '#04fc84&l(!) #04fc84ʀɪɢʜᴛ ᴄʟɪᴄᴋ ᴏɴ ᴀ ᴄᴏɴᴛᴀɪɴᴇʀ ᴛᴏ sᴇʟʟ!'
+
+
+  default-uses: 500
+  messages:
+    no-permission: '&cYou do not have permission to use this command!'
+    given: '&aYou have received a Sell Stick with #04fc84{uses} &auses!'
+    given-to-other: '&aGave a Sell Stick with &2{uses} &auses to &2{player}'
+    no-chest: '&cYou must click on a chest!'
+    sold: '#04fc84+{money}$ &7from selling chest contents'
+    no-items: '&cNo sellable items found in this chest!'
+    depleted: '&cYour Sell Stick has been depleted!'

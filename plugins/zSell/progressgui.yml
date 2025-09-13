@@ -1,0 +1,136 @@
+titles:
+  WHEAT: 'ᴄʀᴏᴘѕ ᴘʀᴏɢʀᴇѕѕ'
+  ROTTEN_FLESH: 'ᴍᴏʙ ᴅʀᴏᴘѕ ᴘʀᴏɢʀᴇѕѕ'
+  DIAMOND: 'ᴏʀᴇ ᴘʀᴏɢʀᴇѕѕ'
+  COBBLESTONE: 'ɴᴀᴛᴜʀᴀʟ ɪᴛᴇᴍѕ ᴘʀᴏɢʀᴇѕѕ'
+  IRON_SWORD: 'ᴀʀᴍᴏʀ ᴀɴᴅ ᴛᴏᴏʟѕ ᴘʀᴏɢʀᴇѕѕ'
+  COD: 'ꜰɪѕʜ ᴘʀᴏɢʀᴇѕѕ'
+  ENCHANTED_BOOK: 'ᴇɴᴄʜᴀɴᴛᴇᴅ ʙᴏᴏᴋѕ ᴘʀᴏɢʀᴇѕѕ'
+  POTION: 'ᴘᴏᴛɪᴏɴѕ ᴘʀᴏɢʀᴇѕѕ'
+  STONE_BRICKS: 'ʙʟᴏᴄᴋѕ ᴘʀᴏɢʀᴇѕѕ'
+
+filler:
+  enabled: true
+  material: GRAY_STAINED_GLASS_PANE
+  displayname: '&7 '
+  lore: []
+
+incomplete:
+  material: WHITE_STAINED_GLASS_PANE
+  displayname: '&fɪɴᴄᴏᴍᴘʟᴇᴛᴇ'
+  lore:
+    - '&f%loading-bar%'
+    - '&7$%amount-have%/%amount-needed% / &f%progress%%'
+
+working:
+  material: YELLOW_STAINED_GLASS_PANE
+  displayname: '#eee70aᴡᴏʀᴋɪɴɢ'
+  lore:
+    - '#eee70a%loading-bar%'
+    - '&7$%amount-have%/%amount-needed% / &f%progress%%'
+
+complete:
+  material: LIME_STAINED_GLASS_PANE
+  displayname: '#20f706ᴄᴏᴍᴘʟᴇᴛᴇ'
+  lore:
+    - '#20f706%loading-bar%'
+    - '&7$%amount-have%/%amount-needed% / &f%progress%%'
+
+back-button:
+  enabled: true
+  slot: 45
+  material: RED_STAINED_GLASS_PANE
+  displayname: '#ee300a&lBack'
+  lore:
+    - '&fClick to go back'
+categories:
+  crops:
+    icon:
+      material: WHEAT
+      slot: 1
+      displayname: '#34ee80ᴄʀᴏᴘѕ'
+      lore:
+        - '&7Sell items to upgrade'
+        - '&7your sell multiplier!'
+        - ''
+        - '&fView your progress below'
+  ores:
+    icon:
+      material: DIAMOND
+      slot: 1
+      displayname: '#34ee80ᴏʀᴇs'
+      lore:
+        - '&7Sell items to upgrade'
+        - '&7your sell multiplier!'
+        - ''
+        - '&fView your progress below'
+  mob_drops:
+    icon:
+      material: ROTTEN_FLESH
+      slot: 1
+      displayname: '#34ee80ᴍᴏʙ ᴅʀᴏᴘѕ'
+      lore:
+        - '&7Sell items to upgrade'
+        - '&7your sell multiplier!'
+        - ''
+        - '&fView your progress below'
+  natural_items:
+    icon:
+      material: COBBLESTONE
+      slot: 1
+      displayname: '#34ee80ɴᴀᴛᴜʀᴀʟ ɪᴛᴇᴍѕ'
+      lore:
+        - '&7Sell items to upgrade'
+        - '&7your sell multiplier!'
+        - ''
+        - '&fView your progress below'
+  armor_tools:
+    icon:
+      material: IRON_SWORD
+      slot: 1
+      displayname: '#34ee80ᴀʀᴍᴏʀ ᴀɴᴅ ᴛᴏᴏʟѕ'
+      lore:
+        - '&7Sell items to upgrade'
+        - '&7your sell multiplier!'
+        - ''
+        - '&fView your progress below'
+  fish:
+    icon:
+      material: COD
+      slot: 1
+      displayname: '#34ee80ꜰɪѕʜ'
+      lore:
+        - '&7Sell items to upgrade'
+        - '&7your sell multiplier!'
+        - ''
+        - '&fView your progress below'
+  enchanted_books:
+    icon:
+      material: ENCHANTED_BOOK
+      slot: 1
+      displayname: '#34ee80ᴇɴᴄʜᴀɴᴛᴇᴅ ʙᴏᴏᴋѕ'
+      lore:
+        - '&7Sell items to upgrade'
+        - '&7your sell multiplier!'
+        - ''
+        - '&fView your progress below'
+  potions:
+    icon:
+      material: POTION
+      slot: 1
+      displayname: '#34ee80ᴘᴏᴛɪᴏɴѕ'
+      lore:
+        - '&7Sell items to upgrade'
+        - '&7your sell multiplier!'
+        - ''
+        - '&fView your progress below'
+  blocks:
+    icon:
+      material: STONE_BRICKS
+      slot: 1
+      displayname: '#34ee80ʙʟᴏᴄᴋѕ'
+      lore:
+        - '&7Sell items to upgrade'
+        - '&7your sell multiplier!'
+        - ''
+        - '&fView your progress below'

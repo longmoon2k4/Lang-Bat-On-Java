@@ -1,0 +1,110 @@
+sell-multi:
+  categories:
+    crops:
+      name: "#FFEE00&lFIELD CROPS"
+      icon: "WHEAT"
+      lore:
+        - "&7ᴄᴜʀʀᴇɴᴛ ᴍᴜʟᴛɪᴘʟɪᴇʀ: #04fc84{multiplier}x"
+        - "&8{progress}"
+    ores:
+      name: "#00EAFF&lORES"
+      icon: "DIAMOND"
+      lore:
+        - "&7ᴄᴜʀʀᴇɴᴛ ᴍᴜʟᴛɪᴘʟɪᴇʀ: #04fc84{multiplier}x"
+        - "&8{progress}"
+    mob-drops:
+      name: "#FF0000&lMOB DROPS"
+      icon: "ROTTEN_FLESH"
+      lore:
+        - "&7ᴄᴜʀʀᴇɴᴛ ᴍᴜʟᴛɪᴘʟɪᴇʀ: #04fc84{multiplier}x"
+        - "&8{progress}"
+    natural-items:
+      name: "#9FFF00&lNATURAL ITEMS"
+      icon: "COBBLESTONE"
+      lore:
+        - "&7ᴄᴜʀʀᴇɴᴛ ᴍᴜʟᴛɪᴘʟɪᴇʀ: #04fc84{multiplier}x"
+        - "&8{progress}"
+    armor-tools:
+      name: "#FF7C00&lARMOR & TOOLS"
+      icon: "IRON_SWORD"
+      lore:
+        - "&7ᴄᴜʀʀᴇɴᴛ ᴍᴜʟᴛɪᴘʟɪᴇʀ: #04fc84{multiplier}x"
+        - "&8{progress}"
+    fish:
+      name: "#00ACFF&lFISH"
+      icon: "COD"
+      lore:
+        - "&7ᴄᴜʀʀᴇɴᴛ ᴍᴜʟᴛɪᴘʟɪᴇʀ: #04fc84{multiplier}x"
+        - "&8{progress}"
+    enchanted-books:
+      name: "#A750FF&lENCHANTED BOOKS"
+      icon: "ENCHANTED_BOOK"
+      lore:
+        - "&7ᴄᴜʀʀᴇɴᴛ ᴍᴜʟᴛɪᴘʟɪᴇʀ: #04fc84{multiplier}x"
+        - "&8{progress}"
+    potions:
+      name: "#E1FF76&lPOTIONS"
+      icon: "POTION"
+      lore:
+        - "&7ᴄᴜʀʀᴇɴᴛ ᴍᴜʟᴛɪᴘʟɪᴇʀ: #04fc84{multiplier}x"
+        - "&8{progress}"
+    blocks:
+      name: "#DDDDDD&lBLOCKS"
+      icon: "STONE_BRICKS"
+      lore:
+        - "&7ᴄᴜʀʀᴇɴᴛ ᴍᴜʟᴛɪᴘʟɪᴇʀ: #04fc84{multiplier}x"
+        - "&8{progress}"
+
+worth:
+  multiplier: 1.0
+  categories:
+    crops:
+      name: "#FFEE00&lFIELD CROPS"
+      icon: "WHEAT"
+      lore:
+        - "&fMoney made: #00FF64{category_earnings}"
+    ores:
+      name: "#00EAFF&lORES"
+      icon: "DIAMOND"
+      lore:
+        - "&fMoney made: #00FF64{category_earnings}"
+    mob-drops:
+      name: "#FF0000&lMOB DROPS"
+      icon: "ROTTEN_FLESH"
+      lore:
+        - "&fMoney made: #00FF64{category_earnings}"
+    natural-items:
+      name: "#9FFF00&lNATURAL ITEMS"
+      icon: "COBBLESTONE"
+      lore:
+        - "&fMoney made: #00FF64{category_earnings}"
+    armor-tools:
+      name: "#FF7C00&lARMOR & TOOLS"
+      icon: "IRON_SWORD"
+      lore:
+        - "&fMoney made: #00FF64{category_earnings}"
+    fish:
+      name: "#00ACFF&lFISH"
+      icon: "COD"
+      lore:
+        - "&fMoney made: #00FF64{category_earnings}"
+    enchanted-books:
+      name: "#A750FF&lENCHANTED BOOKS"
+      icon: "ENCHANTED_BOOK"
+      lore:
+        - "&fMoney made: #00FF64{category_earnings}"
+    potions:
+      name: "#E1FF76&lPOTIONS"
+      icon: "POTION"
+      lore:
+        - "&fMoney made: #00FF64{category_earnings}"
+    blocks:
+      name: "#DDDDDD&lBLOCKS"
+      icon: "STONE_BRICKS"
+      lore:
+        - "&fMoney made: #00FF64{category_earnings}"
+progress-bar:
+  loading-color: '&f'
+  complete-loading-color: '&a'
+  bar-length: 20
+  bar-symbol: '&m '
